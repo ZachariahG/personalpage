@@ -1,24 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title></title>
-<link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>VS Web Project</title>
+ <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
-    <ul>
-      <li>Bio</li>
-      <li>Education</li>
-      <li>Projects</li>
-      <li>Contact</li>
-    </ul>
+   <nav class="nav">
+     <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#bio">Bio</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contacts">Contact</a></li>
+     </ul>
+   </nav>
   </header>
-  <main class="welcome">
-   <h1>Zachariah Gregg</h1>
-   <p>Welcome to my personal web page! Please have a look around.</p>
+  <main>
+   <section class="hero">
+     <h1>Verdantscapes LLC.</h1>
+     <p>Welcome to my business project! Please have a look around.</p>
+   </section>
+   <hr>
+   <section class="purpose">
+   </section>
+   <article class="testimonials">
+     <button class="testimonial"><h3>Janet</h3></button>
+     <button class="testimonial"><h3>Marcia</h3></button>
+     <button class="testimonial"><h3>Shelly</h3></button>
+     <button class="testimonial"><h3>Dawoud</h3></button>
+   </article>
+   <section class="images">
+     <div class="image1 img"><img src="./Images/img1.jpg" alt="#"/></div>
+     <div class="image2 img"><img src="./Images/img2.jpg" alt="#"/></div>
+     <div class="image3 img"><img src="./Images/img3.jpg" alt="#"/></div>
+     <div class="image4 img"><img src="./Images/img4.jpg" alt="#"/></div>
+   </section>
   </main>
   <footer class="footer">
     <p>by Zachariah Gregg</p>
-  </footer>
+    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Coding Journey</p>
+  </footer> >
 </body>
 </html>
